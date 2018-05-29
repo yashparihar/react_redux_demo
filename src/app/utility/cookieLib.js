@@ -4,7 +4,7 @@ export class CookieMap {
         if (document.cookie == "") return false;
 
         var cookStr = document.cookie.split(";");
-        console.log(cookStr);
+       // console.log(cookStr);
 
         var str = cookStr;
         var cookieList = {};
